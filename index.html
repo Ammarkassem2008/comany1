@@ -11,6 +11,7 @@
 </head>
 
 <body>
+  <!-- Header Start -->
   <nav class="bg-gray-800">
     <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
       <div class="relative flex h-16 items-center justify-between">
@@ -63,7 +64,7 @@
   
             
             <div class="absolute right-0 z-10 mt-2 w-48 origin-top-right rounded-md bg-white py-1 shadow-lg ring-1 ring-black/5 focus:outline-none" role="menu" aria-orientation="vertical" aria-labelledby="user-menu-button" tabindex="-1">
-              <a href="#" class="block px-4 py-2 text-sm text-gray-700" role="menuitem" tabindex="-1" id="user-menu-item-0">Your Profile</a>
+              <a href="#" class="block px-4 py-2 text-sm text-gray-700" role="menuitem" tabindex="-1" id="user-menu-item-0" >Your Profile</a>
               <a href="#" class="block px-4 py-2 text-sm text-gray-700" role="menuitem" tabindex="-1" id="user-menu-item-1">Settings</a>
               <a href="#" class="block px-4 py-2 text-sm text-gray-700" role="menuitem" tabindex="-1" id="user-menu-item-2">Sign In</a>
             </div>
@@ -82,7 +83,22 @@
       </div>
     </div>
   </nav>
+
+  <button onclick="changeLanguage('ar')">arabic</button>
+  <button onclick="changeLanguage('eng')">english</button>
+  <p id="siteContent">Hi</p>
+  <!-- Header End -->
+
+<!-- ---------------------------------------- -->
+
+
+  <!-- Container -->
+  <div class="container">
+
+  </div>
+  <!-- End Container -->
   <script src="script/main.js"></script>  
   <script src="style/tailwend.js"></script>
+  <script src="script/language.js"></script>
 </body>
 </html>
