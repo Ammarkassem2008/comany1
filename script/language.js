@@ -7,10 +7,10 @@ function changeLanguage(lang) {
 
 let language = {
     eng: {
-        welcome:"Hi"
+        welcome:"Home"
     },
     ar:{
-        welcome:"كيفك"
+        welcome:"الصفحة الرئيسية"
     },
 };
 
