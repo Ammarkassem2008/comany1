@@ -31,3 +31,42 @@ header nav a{
     color:#cae9ae;
     text-shadow: 0 0 20px #208c8c;
 }
+
+#btn-menu {
+  font-size: 2em;
+  color: #cae9ae;
+  display: none;
+}
+#check{
+  display: none;
+}
+
+@media (max-width:768px) {
+  header nav {
+    position: fixed;
+    top: 95px;
+    right: -360px;
+    width: 360px;
+    transition: 0.5s;
+    overflow: hidden;
+    background-color: #1d1d1d;
+    height: 40vh;
+    border-radius: 16px;
+  }
+  .active {
+   right: 0;
+  }
+  header nav a {
+    display: block;
+    margin: 8px 5px;
+    text-align: center;
+    font-size: 1.3em;
+    width: 100%;
+    border-radius: 15px;
+    padding: 8px 0;
+  }
+
+  #btn-menu {
+    display: block;
+  }
+}
