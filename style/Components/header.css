@@ -1,0 +1,33 @@
+
+/* Header Style */
+header{
+    background-color: #1d1d1d;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+    height: 40px;
+    width: 90%;
+    margin: auto;
+    box-shadow: 4px 6px 0px rgb(192, 235, 255);
+    border-radius: 20px;
+    margin-top: 15px;
+}
+
+header nav a{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    font-size:20px;
+    font-weight: 100;
+    color:antiquewhite;
+    padding: 10px;
+}
+
+.logo{
+    text-decoration: none;
+    font-size: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 100;
+    color:#cae9ae;
+    text-shadow: 0 0 20px #208c8c;
+}
