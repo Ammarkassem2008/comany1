@@ -23,7 +23,7 @@ header {
 header nav a {
   text-decoration: none;
   font-size: 20px;
-  font-weight: 100;
+  font-weight: 500;
   color: antiquewhite;
   padding: 10px;
 }
@@ -35,7 +35,7 @@ header nav a {
 
 #btn-menu {
   font-size: 2em;
-  color: #cae9ae;
+  color:#FBF771;
   display: none;
 }
 
@@ -47,17 +47,17 @@ header nav a {
   header nav {
     position: fixed;
     top: 95px;
-    right: -360px;
+    left: -380px;
     width: 360px;
     transition: 0.5s;
     overflow: hidden;
-    background-color: #1d1d1d;
+    background-color: #FF8383;
     height: 40vh;
     border-radius: 16px;
   }
 
   .active {
-    right: 0;
+    left: -20px;
   }
 
   header nav a {

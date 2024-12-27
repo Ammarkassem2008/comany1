@@ -13,4 +13,4 @@ let images = ['./images/img1.jpg' , './images/img2.jpg' , './images/img3.jpg' , 
 setInterval(function(){
   let rnd = Math.floor(Math.random()*images.length);
   image.src = images[rnd];
-},5000);
+},4000);

@@ -9,3 +9,6 @@ footer{
 .save{
     color:#000;
 }
+.footer-links a{
+  padding: 8px 0;
+}

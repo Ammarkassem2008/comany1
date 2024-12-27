@@ -9,22 +9,16 @@
 main{
   height: 100vh;
   background-color: aquamarine;
-  background-position:center;
-  background-size: cover;
-  display: flex;
 }
 
 main img{
   height: 500px;
   border-radius: 0 50px 0 50px;
   margin-left: 70px;
-  margin-top: 100px;
 }
 
 .hero-title{
   font-size: 60px;
-  padding-top: 250px;
-  padding-right: 70px;
   font-weight: 500;
 }
 
@@ -33,7 +27,6 @@ main img{
 }
 
 .hero-text{
-  padding-right: 70px;
   padding-top: 20px;
 }
 
@@ -46,3 +39,35 @@ main img{
   text-align: center;
 }
 
+main a{
+  display: inline-block;
+  background-color: #FF8383;
+  border-right:5px solid #FBF771;
+  padding: 10px 16px;
+  margin: 20px !important;
+}
+.whatsUp-btn {
+  border-radius: 50%;
+  width: 55px;
+  height: 55px;
+  z-index: 10;
+  animation: fill 2s infinite ease-in-out;
+  position: fixed;
+  left: 8%;
+  bottom: 8%;
+  border: 1.5px solid #4CD742;
+  padding: 2px;
+}
+@keyframes fill {
+  0% {
+    transform: scale(1.0);
+  }
+
+  50% {
+    transform: scale(1.15);
+  }
+
+  100% {
+    transform: scale(1.0);
+  }
+}

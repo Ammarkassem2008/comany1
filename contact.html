@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style/style.css">
+  <link rel="stylesheet" href="style/Components/header.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="style/Components/contact.css">
+  <link rel="stylesheet" href="style/Components/footer.css">
+  <title>تجارتي - بداية نجاحك</title>
+</head>
+
+<body dir="rtl" class="bg-gray-100">
+  <!-- Header Start -->
+  <header class="shadow-xl">
+    <a class="logo" href="#"><img src="images/Untitled-1.png"></a>
+
+    <label for="check">
+      <i id="btn-menu" class="fa-solid fa-bars"></i>
+    </label>
+    <input type="checkbox" id="check">
+
+    <nav id="nav-links">
+      <a href="">منتجاتنا</a>
+      <a href="">حول</a>
+      <a href="">أعمالنا</a>
+      <a href="">تواصل معنا</a>
+    </nav>
+
+  </header>
+  <!-- Header End -->
+
+
+  <section id="contact" class="contact mt-20">
+    <div class="container mx-auto grid sm:grid-cols-2 items-center">
+      <div class="m-3 text-xl">
+        <h3>حول <span>أفكارك</span> إلى واقع وزد من <span>مبيعاتك</span> الآن! تواصل معنا لتطوير <span>متجرك</span> الإلكتروني على منصة <span>سلة و زد</span> بأفضل الحلول الرقمية.</h3>
+      </div>
+      <form onsubmit="sentMs()">
+        <input type="text" placeholder="Your Name" id="name" required>
+        <input type="email" placeholder="Email Address" id="email">
+        <textarea id="massege" cols="30" rows="10" placeholder="Your Message" required></textarea>
+        <button type="submit" class="shadow-xl">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+
+
+  <!--start footer -->
+  <footer class="py-10" dir="rtl">
+    <div href="/" class="footer-logo flex justify-center">
+      <img src="images/Untitled-1.png" class="w-44">
+    </div>
+    <div class="container mx-auto sm:grid grid-cols-2">
+      <div class="footer-links container mx-auto flex flex-col text-center mt-5">
+        <a href="" class="font-bold">منتجاتنا</a>
+        <a href="">حول</a>
+        <a href="">أعمالنا</a>
+        <a href="">تواصل معنا</a>
+      </div>
+
+      <div class="footer-links container mx-auto flex flex-col text-center mt-5t">
+        <a href="" class="font-bold">كيف تبدأ مشروع ناجح ؟</a>
+        <a href="">لماذا تختار منصتنا</a>
+        <a href="">حدد موعد للإجتماع</a>
+        <a href="">المدونة</a>
+      </div>
+    </div>
+
+    <div class="icons flex justify-center mt-5">
+      <a href="" class="px-3 text-xl">
+        <i class="fab fa-github"></i></a>
+      <a href="" class="px-3 text-xl">
+        <i class="fab fa-instagram"></i></a>
+      <a href="" class="px-3 text-xl">
+        <i class="fab fa-linkedin"></i></a>
+      <a href="" class="px-3 text-xl">
+        <i class="fab fa-telegram-plane"></i></a>
+    </div>
+
+    <hr class="border-dashed border-gray-400 mt-3 shadow-xl">
+    <p class="text-center font-bold text-white mt-5">جميع الحقوق محفوظة ل <span class="text-green-200 ">©منصة تجارتي</span></p>
+  </footer>
+  <!--end footer -->
+  <script src="script/whatsup.js"></script>
+  <script src="tailwend.js"></script>
+  <script src="script/main.js"></script>
+</body>
+
+</html>
