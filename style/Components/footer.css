@@ -1,0 +1,11 @@
+footer{
+    background-color: rgb(255, 133, 133);
+    border-radius: 60px 60px 0 0;
+}
+
+.footer-links , .icons {
+    color: rgb(255, 255, 255);
+}
+.save{
+    color:#000;
+}

@@ -8,13 +8,40 @@
 
 main{
   height: 100vh;
-  background:url(../images/pexels-weekendplayer-1252814.jpg) no-repeat;
+  background-color: aquamarine;
   background-position:center;
   background-size: cover;
+  display: flex;
+}
+
+main img{
+  height: 500px;
+  border-radius: 0 50px 0 50px;
+  margin-left: 70px;
+  margin-top: 100px;
 }
 
 .hero-title{
   font-size: 60px;
-  padding-top: 150px;
-  padding-right: 50px;
+  padding-top: 250px;
+  padding-right: 70px;
+  font-weight: 500;
+}
+
+.hero-title span{
+  color: #FF8383;
+}
+
+.hero-text{
+  padding-right: 70px;
+  padding-top: 20px;
+}
+
+.pro-btn{
+  background-color: #FF8383;
+}
+
+.pro-title{
+  font-size:30px ;
+  text-align: center;
 }

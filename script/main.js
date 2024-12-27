@@ -5,3 +5,5 @@ btnMenu.onclick = function() {
   btnMenu.classList.toggle('fa-times');
   Menu.classList.toggle('active')
 }
+
+// Image Changer

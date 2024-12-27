@@ -6,37 +6,87 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style/style.css">
   <link rel="stylesheet" href="style/Components/header.css">
+  <link rel="stylesheet" href="style/Components/footer.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <title>تجارتي - بداية نجاحك</title>
 </head>
 
-<body>
+<body dir="rtl">
   <!-- Header Start -->
   <header class="" dir="rtl">
     <a class="logo" href="#"><img src="images/Untitled-1.png"></a>
-
     <label for="check">
       <i id="btn-menu" class="fa-solid fa-bars"></i>
     </label>
     <input type="checkbox" id="check">
-
     <nav id="nav-links" class="">
       <a href="">منتجاتنا</a>
       <a href="">حول</a>
       <a href="">أعمالنا</a>
       <a href="">تواصل معنا</a>
     </nav>
-
   </header>
   <!-- Header End -->
 
-  <main dir="rtl">
-    <h1 class="hero-title">تجارتي حيث يبدأ النجاح</h1>
+  <!-- Main Section -->
+  <main>
+    <div class="container mx-auto">
+      <h1 class="hero-title"> <span>تجارتي </span>حيث يبدأ نجاحك </h1>
+      <p class="hero-text">تسعى منصتنا إلى تقديم حلول متكاملة لتطوير المتاجر الإلكترونية على منصة سلة و زد،<br> بهدف زيادة مبيعات عملائنا وتحقيق نجاحهم في عالم التجارة الرقمية. اكتشف كيف يمكننا<br> تحسين تجربتك الإلكترونية وتحقيق أهدافك التجارية بكفاءة واحترافية.</p>
+    </div>
+    <img src="./images/2.jpg" alt="">
   </main>
+  <!-- End Mani Section -->
 
+  <!-- products section start -->
+<section class="products bg-gray-100 py-2">
+  <h1 class="pro-title">الخدمات التي نقدمها </h1>
+  <div class="container mx-auto grid grid-cols-2 sm:grid-cols-4">
+    <!-- product card start -->
+    <div class="product-card w-40 sm:w-56 bg-white rounded-xl overflow-hidden shadow m-2">
+      <img src="./images/pro-imgs/1.jpg" class="w-full rounded-xl">
+      <div class="p-2 rounded-xl">
+        <h3 class="font-bold text-gray-800">تطبيق حذف الخلفية</h3>
+        <span class="text-xs text-gray-400">Lorem ipsum dolor sit amet, consecte</span>
+        <p>السعر: $10 </p>
+        <button class="pro-btn text-white p-2 w-full rounded-xl">أطلبه الآن</button>
+      </div>
+    </div>
+    <div class="product-card w-40 sm:w-56 bg-white rounded-xl overflow-hidden shadow m-2">
+      <img src="./images/pro-imgs/1.jpg" class="w-full rounded-xl">
+      <div class="p-2 rounded-xl">
+        <h3 class="font-bold text-gray-800">تطبيق حذف الخلفية</h3>
+        <span class="text-xs text-gray-400">Lorem ipsum dolor sit amet, consecte</span>
+        <p>السعر: $10 </p>
+        <button class="pro-btn text-white p-2 w-full rounded-xl">أطلبه الآن</button>
+      </div>
+    </div>
+    <div class="product-card w-40 sm:w-56 bg-white rounded-xl overflow-hidden shadow m-2">
+      <img src="./images/pro-imgs/1.jpg" class="w-full rounded-xl">
+      <div class="p-2 rounded-xl">
+        <h3 class="font-bold text-gray-800">تطبيق حذف الخلفية</h3>
+        <span class="text-xs text-gray-400">Lorem ipsum dolor sit amet, consecte</span>
+        <p>السعر: $10 </p>
+        <button class="pro-btn text-white p-2 w-full rounded-xl">أطلبه الآن</button>
+      </div>
+    </div>
+    <div class="product-card w-40 sm:w-56 bg-white rounded-xl overflow-hidden shadow m-2">
+      <img src="./images/pro-imgs/1.jpg" class="w-full rounded-xl">
+      <div class="p-2 rounded-xl">
+        <h3 class="font-bold text-gray-800">تطبيق حذف الخلفية</h3>
+        <span class="text-xs text-gray-400">Lorem ipsum dolor sit amet, consecte</span>
+        <p>السعر: $10 </p>
+        <button class="pro-btn text-white p-2 w-full rounded-xl">أطلبه الآن</button>
+      </div>
+    </div>
+    <!-- product card end -->
+    
   </div>
+  <!-- Prouduct Section End -->
+
+
   <!--start footer -->
-  <footer class="bg-gray-900 text-gray-400 py-10" dir="rtl">
+  <footer class="text-gray-400 py-10">
       <div href="/" class="footer-logo flex justify-center">
         <img src="images/Untitled-1.png"  class="w-44">
       </div>
@@ -68,7 +118,7 @@
     </div>
     
     <hr class="border-dashed border-gray-400 mt-3 shadow-xl">
-    <p class="text-center font-bold mt-5">كل الحقوق محفوظة ل <span class="text-green-200 ">©منصة تجارتي</span></p>
+    <p class="text-center font-bold mt-5 save">كل الحقوق محفوظة لـ<span class="text-green-200 ">©منصة تجارتي</span></p>
   </footer>
   <!--end footer -->
   <script src="tailwend.js"></script>

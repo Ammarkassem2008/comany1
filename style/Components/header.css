@@ -13,8 +13,9 @@ header {
   border-radius: 20px;
   margin-top: 15px;
   position: fixed;
-  top: 0;
-  right: 10;
+  top:23px;
+  left: 50%;
+  transform: translate(-50% , -50% );
 }
 
 header nav a {
