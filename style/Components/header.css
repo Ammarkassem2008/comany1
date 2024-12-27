@@ -12,15 +12,12 @@ header {
   border-radius: 20px;
   margin-top: 15px;
   position: fixed;
-<<<<<<< HEAD
   top:23px;
   left: 50%;
   transform: translate(-50% , -50% );
-=======
   top: 23px;
   left: 50%;
   transform: translate(-50%, -50%);
->>>>>>> dcd0333e050fcb92200352003d339ef4eeab51ef
 }
 
 header nav a {
