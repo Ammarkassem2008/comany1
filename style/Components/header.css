@@ -9,17 +9,21 @@ header {
   align-items: center;
   height: 60px;
   width: 90%;
-  margin: auto;
   border-radius: 20px;
   margin-top: 15px;
   position: fixed;
+<<<<<<< HEAD
   top:23px;
   left: 50%;
   transform: translate(-50% , -50% );
+=======
+  top: 23px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+>>>>>>> dcd0333e050fcb92200352003d339ef4eeab51ef
 }
 
 header nav a {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   text-decoration: none;
   font-size: 20px;
   font-weight: 100;
