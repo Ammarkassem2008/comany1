@@ -1,5 +1,5 @@
 function sentMs() {
-  let number = '+963986258215';
+  let number = '+963980150973';
   let name = document.getElementById('name').value || 'Not Found';
   
   let email = document.getElementById('email').value || 'Unknown';
