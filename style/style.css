@@ -5,3 +5,16 @@
   padding: 0;
   font-family: "Alexandria", serif;
 }
+
+main{
+  height: 100vh;
+  background:url(../images/pexels-weekendplayer-1252814.jpg) no-repeat;
+  background-position:center;
+  background-size: cover;
+}
+
+.hero-title{
+  font-size: 60px;
+  padding-top: 150px;
+  padding-right: 50px;
+}

@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@100..900&display=swap');
 
 header {
-  background-color: #1d1d1d;
+  background-color: rgb(255, 133, 133);
   display: flex;
   justify-content: space-between;
   padding: 20px;
@@ -10,9 +10,11 @@ header {
   height: 60px;
   width: 90%;
   margin: auto;
-  box-shadow: 4px 6px 0px rgb(192, 235, 255);
   border-radius: 20px;
   margin-top: 15px;
+  position: fixed;
+  top: 0;
+  right: 10;
 }
 
 header nav a {
