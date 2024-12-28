@@ -71,3 +71,60 @@ main a{
     transform: scale(1.0);
   }
 }
+
+
+/* Meeting Button*/
+
+.meet{
+  outline: 0;
+  border: 0;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 190px;
+  height: 50px;
+  border-radius: 0.5em;
+  box-shadow: 0 0.625em 1em 0 rgba(30, 143, 255, 0.35);
+  overflow: hidden;
+}
+
+.meet div {
+  transform: translateY(0px);
+  width: 100%;
+}
+
+.meet,
+.meet div {
+  transition: 0.6s cubic-bezier(.16,1,.3,1);
+}
+.meet div span {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 50px;
+  padding: 0.75em 1.125em;
+}
+
+.meet div:nth-child(1) {
+  background-color: #FF8383;
+}
+.meet div:nth-child(2) {
+  background-color: #1e90ff;
+}
+
+.meet:hover {
+  box-shadow: 0 0.625em 1em 0 rgba(33, 220, 98, 0.35);
+}
+
+.meet:hover div {
+  transform: translateY(-50px);
+}
+.meet p {
+  font-size: 17px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.meet :active {
+  transform: scale(0.95);
+}
