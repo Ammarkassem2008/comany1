@@ -34,7 +34,7 @@ main img{
   background-color: #FF8383;
 }
 
-.pro-title{
+.pro-title , .work-title{
   font-size:30px ;
   text-align: center;
 }
