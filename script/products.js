@@ -5,7 +5,6 @@ const data = [
     title: "تنسيق الهيدر و الفوتر",
     text: 'تصميم الهيدر و الفوتر باسنخدام css',
     price: '10$',
-    name: 'banner',
   },
   {
     id: 2,
@@ -13,7 +12,6 @@ const data = [
     title: "تنسيق الهيدر و الفوتر",
     text: 'تصميم الهيدر و الفوتر باسنخدام css',
     price: '10$',
-    name: 'header and footer',
 },
   {
     id: 4,
@@ -21,7 +19,6 @@ const data = [
     title: "تنسيق الهيدر و الفوتر",
     text: 'تصميم الهيدر و الفوتر باسنخدام css',
     price: '10$',
-    name: 'footer and header',
 },
   {
     id: 4,
@@ -29,7 +26,6 @@ const data = [
     title: "تنسيق الهيدر و الفوتر",
     text: 'تصميم الهيدر و الفوتر باسنخدام css',
     price: '10$',
-    name: 'banner',
 },
 ]
 
