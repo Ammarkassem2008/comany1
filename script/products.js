@@ -1,7 +1,7 @@
 const data = [
   {
     id: 1,
-    img: './images/pro-imgs/1.jpg',
+    img: './images/pro-imgs/Untitled-3.png',
     title: "تنسيق الهيدر و الفوتر",
     text: 'تصميم الهيدر و الفوتر باسنخدام css',
     price: '10$',
