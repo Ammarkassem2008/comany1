@@ -8,10 +8,10 @@ const data = [
   },
   {
     id: 2,
-    img: './images/pro-imgs/1.jpg',
-    title: "تنسيق الهيدر و الفوتر",
-    text: 'تصميم الهيدر و الفوتر باسنخدام css',
-    price: '10$',
+    img: './images/pro-imgs/Untitled-9.png',
+    title: "تنسيق بطاقة وصفحة المنتج",
+    text: 'تصميم المنتج وصفحته باستخدام css',
+    price: '8$',
 },
   {
     id: 4,
