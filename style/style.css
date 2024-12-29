@@ -41,18 +41,7 @@ main img{
   text-align: center;
 }
 
-.whatsUp-btn {
-  border-radius: 50%;
-  width: 55px;
-  height: 55px;
-  z-index: 10;
-  animation: fill 2s infinite ease-in-out;
-  position: fixed;
-  left: 8%;
-  bottom: 8%;
-  border: 1.5px solid #4CD742;
-  padding: 2px;
-}
+
 @keyframes fill {
   0% {
     transform: scale(1.0);
@@ -66,7 +55,18 @@ main img{
     transform: scale(1.0);
   }
 }
-
+.whatsUp-btn {
+  border-radius: 50%;
+  width: 55px;
+  height: 55px;
+  z-index: 10;
+  animation: fill 2s infinite ease-in-out;
+  position: fixed;
+  left: 8%;
+  bottom: 8%;
+  border: 1.5px solid #4CD742;
+  padding: 2px;
+}
 
 /* Meeting Button*/
 
