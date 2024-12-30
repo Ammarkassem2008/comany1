@@ -1,20 +1,20 @@
 const data = [
   {
     id: 1,
-    img: './images/pro-imgs/Untitled-3.png',
+    img: './images/pro-imgs/1.jpg',
     title: "تنسيق الهيدر و الفوتر",
     text: 'تصميم الهيدر و الفوتر باسنخدام css',
     price: '5$',
   },
   {
     id: 2,
-    img: './images/pro-imgs/Untitled-9.png',
+    img: './images/pro-imgs/2.jpg',
     title: "تنسيق بطاقة وصفحة المنتج",
     text: 'تصميم المنتج وصفحته باستخدام css',
     price: '8$',
 },
   {
-    id: 4,
+    id: 3,
     img: './images/pro-imgs/1.jpg',
     title: "تنسيق الهيدر و الفوتر",
     text: 'تصميم الهيدر و الفوتر باسنخدام css',
@@ -22,7 +22,7 @@ const data = [
 },
   {
     id: 4,
-    img: './images/pro-imgs/1.jpg',
+    img: './images/pro-imgs/2.jpg',
     title: "تنسيق الهيدر و الفوتر",
     text: 'تصميم الهيدر و الفوتر باسنخدام css',
     price: '10$',
