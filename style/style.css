@@ -143,3 +143,36 @@ main img {
 .about-text span{
   color: #FF8383;
 }
+
+.views{
+  display: flex;
+  width: 90%;
+  justify-content: space-between;
+  margin: auto;
+}
+
+.view{
+  width: 30%;
+  background:linear-gradient(30deg , #FF8383 , #1e90ff);
+  border-radius: 20px;
+  padding: 10px;
+  box-shadow:0px 5px 9px #000;
+}
+
+@media (max-width:768px){
+  .views{
+    width: 90%;
+    margin: auto;
+    display: block;
+  }
+  .view{
+    width: 100%;
+    margin: 10px;
+  }
+}
+
+/* Starts Style */
+
+.stars img{
+  width: 20px;
+}
