@@ -152,11 +152,12 @@ main img {
 }
 
 .view{
-  width: 30%;
+  width: 325px;
   background:linear-gradient(30deg , #FF8383 , #1e90ff);
   border-radius: 20px;
   padding: 10px;
-  box-shadow:0px 5px 9px #000;
+  box-shadow:1px 5px 5px #000;
+  margin: 18px;
 }
 
 
@@ -164,19 +165,65 @@ main img {
   width: 100px;
   border-radius: 50%;
 }
-
+/*
 @media (max-width:768px){
   .views{
     display: block;
   }
-  .view{
-    width: 100%;
-    margin: 10px;
-  }
 }
-
+*/
 /* Starts Style */
 
 .stars img{
   width: 20px;
+}
+
+
+/*Projects*/
+.projects .pro-card{
+  background: linear-gradient(30deg, #FF8383, #FBF771);
+  width: 315px;
+  text-align: center;
+  position: relative;
+}
+.projects img{
+  box-shadow: 4px 4px 0 #9A4848;
+}
+.project-text h1{
+  color:#D65959;
+}
+.project-text p{
+  margin-bottom: 20px;
+}
+.salla{
+  position: absolute;
+  background-color: #FF8383;
+  color:#fff;
+  padding: 5px 20px;
+  z-index: 9;
+  border-radius: 12px;
+  left: 0;
+  top: 0;
+  rotate: -45deg;
+}
+.project-btn{
+  background-color: #FBF771;
+  box-shadow: 4px 4px 0 #9A4848;
+  padding: 6px;
+  margin:auto;
+  border-radius: 30px;
+  border:1px solid #223;
+  color: #111;
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+}
+.project-btn i{
+  left: 4px;
+  top: 2px;
+  border:1px solid #223;
+}
+.project-btn span{
+  padding: 10px;
+  font-size: 20px;
 }
