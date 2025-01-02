@@ -39,6 +39,14 @@ const pro = [
     link: '',
     type: 'سلة'
   },
+    {
+      id: 6,
+      title:  'متجر بيوتي Beauty',
+      img: 'images/projects-images/6.png',
+      text: 'المتكاملة التي تشمل كل ما تحتاجه للنجاح في عالم التجارة الرقمية. انضم إلى قائمة عملائنا المميزين وكن جزءًا من قصة نجاحنا المستمرة على منصتي سلة وزد',
+      link: '',
+      type: 'سلة'
+    },  
 ]
 
 function showData(rang) {
@@ -46,7 +54,7 @@ function showData(rang) {
 
   for (var i = 0; i < rang; i++) {
     let project = `
-    <div class="py-4 my-4">
+    <div class="py-4 m-5">
       <div class="pro-card rounded-xl p-4">
         <p class="salla">${pro[i].type}</p>
         <img src="${pro[i].img}" alt="مشروع" class="rounded-xl">
