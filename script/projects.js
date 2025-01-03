@@ -54,7 +54,7 @@ function showData(rang) {
 
   for (var i = 0; i < rang; i++) {
     let project = `
-    <div class="py-4 m-5">
+    <div class="py-4 m-5 sm:m-3">
       <div class="pro-card rounded-xl p-4">
         <p class="salla">${pro[i].type}</p>
         <img src="${pro[i].img}" alt="مشروع" class="rounded-xl">
