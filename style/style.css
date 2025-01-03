@@ -228,10 +228,10 @@ main img {
   top: 2px;
   border:1px solid #223;
 }
+.pro-text span {
+  color: #FF8383;
+}
 .project-btn span{
   padding: 10px;
   font-size: 20px;
-}
-.pro-text span{
-  color:#FF8383;
 }
